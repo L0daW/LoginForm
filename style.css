@@ -1,0 +1,77 @@
+html { 
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(m1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial,  sans-serif;
+}
+.form {
+    width: 520px;
+    height: 420px;
+    background: rgba(212, 228, 212, 0.1);
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+}
+.userImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    left: 40%;
+    position: absolute;
+    text-align:center;padding: 5px ;
+
+}
+.log {
+    margin-top:3em;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+.form p {
+    margin-bottom: 10px;
+    margin-left: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: aliceblue;
+
+}
+.form input {
+    height: 40px;
+    width: 93%;
+    margin-bottom: 10px;
+    margin-left: 13px;
+    font-size: 16px;
+    
+}
+.form button {
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 25%;
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: aliceblue;
+    background: #444444;
+}
+button:hover{
+    background-color: rgb(98, 122, 124);
+    color: black;
+    height: 44px;
+    width: 27%;
+    font-size: 20px;
+}
+input:hover{
+    width: 95%;
+    height: 43px;
+
+}
